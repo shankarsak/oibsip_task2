@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+ <header>
+ <div class="user">
+     <img src="images/profile.jpg" alt="">
+     <h3 class="name">Shankar Kumar</h3>
+     <p class="role">Computer Science Engineer</p>
+ </div>
+
+ <nav class="navbar">
+     <ul>
+         <li><a href="#home">Home</a></li>
+         <li><a href="#about">About</a></li>
+         <li><a href="#education">Education</a></li>
+         <li><a href="#skill">Skills</a></li>
+         <li><a href="#portfolio">Portfolio</a></li>
+         <li><a href="#contact">Contact</a></li>
+     </ul>
+ </nav>
+</header>
+<div id="menu" class="fa fa-bars"></div>
+<section class="home" id="home">
+    <h3>HEY VIEWER !</h3>
+    <h1>I'M <span>Shankar Kumar</span></h1>
+    <p>B.Tech.(CSE) Final Year Student, a Frontend Web Developer & Programmer. Working on quality content on web development & software/application development.</p>
+    <a href="#about"><button class="btn">About Me <i class="fas fa-user"></i></button></a>
+</section>
+
+<section class="about" id="about">
+
+    <h1 class="heading"><span>About</span> Me</h1>
+
+    <div class="row">
+        <div class="info">
+            <h3><span>Name: </span>Shankar Kumar</h3>
+            <h3><span>Age: </span>21</h3>
+            <h3><span>Role: </span>Computer Science Engineer</h3>
+            <h3><span>Language: </span>Hindi , English</h3>
+            <a href="#">
+                <button class="btn">Download CV <i class="fas fa-download"></i></button>
+            </a>
+        </div>
+
+        <div class="counter">
+            <div class="box">
+                <span>Fresher</span>
+                <h3>Graduate</h3>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="education" id="education">
+    <h1 class="heading">My <span>Education</span></h1>
+    <div class="box-container">
+    <div class="counter">
+    <div class="box">
+        <i class="fas fa-graduation-cap"></i>
+        <span>2016</span>
+        <h3>Intermediate Passout</h3>
+        <p>The Earth Public School, Patna, Bihar<br>
+            9 CGPA
+        </p>
+    </div>
+
+    <div class="box">
+        <i class="fas fa-graduation-cap"></i>
+        <span>2017-20</span>
+        <h3>Diploma in CSE</h3>
+        <p>Govt. Polytechnic Gulzarbagh, Patna<br>
+            7.96 CGPA
+        </p>
+    </div>
+
+    <div class="box">
+        <i class="fas fa-graduation-cap"></i>
+        <span>2020-23</span>
+        <h3>B. Tech. in Computer Science & Engineering</h3>
+        <p>B.P. Mandal College of Engineering, Madhepura, Bihar<br>
+            Pursuing current CGPA 7.86
+        </p>
+    </div>
+    </div>
+</div>
+</section>
+
+<section class="skill" id="skill">
+<h1 class="heading"><span>My </span>Skills</h1>
+<div class="box-container">
+
+    <h1>HTML</h1>
+    <div class="container">
+      <div class="skills html">90%</div>
+    </div>
+    
+    <h1>CSS</h1>
+    <div class="container">
+      <div class="skills css">65%</div>
+    </div>
+    
+    <h1>Java</h1>
+    <div class="container">
+      <div class="skills java">60%</div>
+    </div>
+    
+    <h1>C</h1>
+    <div class="container">
+      <div class="skills c">75%</div>
+    </div>
+
+    <h1>C++</h1>
+    <div class="container">
+      <div class="skills cpp">70%</div>
+    </div>
+
+    <h1>Python</h1>
+    <div class="container">
+      <div class="skills python">60%</div>
+    </div>
+</div>
+</section>
+
+<section class="portfolio" id="portfolio">
+    <h1 class="heading">My <span>Portfolio</span></h1>
+
+    <div class="box-container">
+       
+        <div class="box">
+            <img src="images/1.png" alt="">
+        </div>
+
+        <div class="box">
+            <img src="images/2.png" alt="">
+        </div>
+
+        <div class="box">
+            <img src="images/3.png" alt="">
+        </div>
+
+        <div class="box">
+            <img src="images/4.png" alt="">
+        </div>
+
+        <div class="box">
+            <img src="images/5.png" alt="">
+        </div>
+
+        <div class="box">
+            <img src="images/6.png" alt="">
+        </div>
+    </div>
+</section>
+
+<section class="contact" id="contact">
+
+    <h1 class="heading"> <span>contact</span> me </h1>
+    
+    <div class="row">
+    
+        <div class="content">
+    
+            <h3 class="title">contact info</h3>
+    
+            <div class="info">
+                <h3> <i class="fas fa-envelope"></i> shankar@gmail.com </h3>
+                <h3> <i class="fas fa-phone"></i> +91-XXXXX-45789 </h3>
+                <h3> <i class="fas fa-map-marker-alt"></i> Patna, Bihar 800001 </h3>
+                <h3> <i class='fab fa-linkedin-in'></i>shankarsak</i></h3>
+            </div>
+    
+        </div>
+        <form action="">
+            
+            <input type="text" placeholder="name" class="box">
+            <input type="email" placeholder="email" class="box">
+            <input type="text" placeholder="subject" class="box">
+            <textarea name="" id="" cols="30" rows="10" class="box message" placeholder="message"></textarea>
+            <button type="submit" class="btn"><a href="#"> send </a><i class="fas fa-paper-plane"></i> </button>
+    
+        </form>
+    </div>
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Top <i class="arrow up"></i></button>
+    <footer>&copy; Shankar || 2022</footer>
+    </section>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="script.js"></script>
+
+</body>
+</html>
